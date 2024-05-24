@@ -43,11 +43,10 @@
     });
   </script>
   
-  
-  <header class="border-b text-gray-800 p-4 md:p-8">
+  <header class="border-b text-gray-800 p-4 md:p-4">
     <nav class="container mx-auto flex items-center justify-between">
       <div>
-        <p class="text-3xl font-bold hover:text-gray-700 transition duration-300 ease-in-out">Website Portfolio</p>
+        <img class="w-1/3 mb-4 sm:mb-0" aria-hidden="true" src="media/images/SvelteLogo.png" alt="">
       </div>
       <div class={menuOpen ? 'block' : 'hidden md:flex'} id="menu">
         <a href="#about" class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
