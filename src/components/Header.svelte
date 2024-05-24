@@ -46,14 +46,12 @@
 <header class="border-b text-gray-800 p-4 md:p-4">
   <nav class="container mx-auto flex items-center justify-between">
     <div>
-      <a href="https://svelte.dev/" aria-label="SvelteHomepage">
-        <img
-          class="w-32 md:w-1/3"
-          aria-hidden="true"
-          src="media/images/SvelteLogo.png"
-          alt="Svelte Logo"
-        /></a
-      >
+      <img
+        class="w-32 md:w-1/3"
+        aria-hidden="true"
+        src="media/images/SvelteLogo.png"
+        alt="Svelte Logo"
+      />
     </div>
     <div class={menuOpen ? "block" : "hidden md:flex"} id="menu">
       <a
