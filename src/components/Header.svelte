@@ -53,38 +53,63 @@
         alt="Svelte Logo"
       />
     </div>
-    <div class={menuOpen ? "block" : "hidden md:flex"} id="menu">
-      <a
-        href="#about"
-        class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-        aria-label="About">About</a
-      >
-      <a
-        href="#contact"
-        class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-        aria-label="Contact">Contact</a
-      >
-      <a
-        href="#news"
-        class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-        aria-label="News">News</a
-      >
-      <a
-        href="#portfolio"
-        class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-        aria-label="Portfolio">Portfolio</a
-      >
-      <a
-        href="#resume"
-        class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-        aria-label="Resume">Resume</a
-      >
-      <a
-        href="#fun"
-        class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-        aria-label="Fun">FUN?</a
-      >
-    </div>
+
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+
+    <ul
+      class={menuOpen
+        ? "flex flex-wrap justify-around"
+        : "hidden md:flex justify-around"}
+      id="menu"
+    >
+      <li>
+        <a
+          href="#about"
+          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          aria-label="About">About</a
+        >
+      </li>
+      <li>
+        <a
+          href="#contact"
+          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          aria-label="Contact">Contact</a
+        >
+      </li>
+      <li>
+        <a
+          href="#news"
+          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          aria-label="News">News</a
+        >
+      </li>
+      <li>
+        <a
+          href="#portfolio"
+          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          aria-label="Portfolio">Portfolio</a
+        >
+      </li>
+      <li>
+        <a
+          href="#resume"
+          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          aria-label="Resume">Resume</a
+        >
+      </li>
+      <li>
+        <a
+          href="#fun"
+          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          aria-label="Fun">FUN?</a
+        >
+      </li>
+    </ul>
+
     <button class="md:hidden" aria-label="Toggle menu" on:click={toggleMenu}>
       <svg
         class={menuOpen ? "hidden" : "w-6 h-6"}
