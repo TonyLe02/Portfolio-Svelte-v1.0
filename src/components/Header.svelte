@@ -46,7 +46,7 @@
   <header class="border-b text-gray-800 p-4 md:p-4">
     <nav class="container mx-auto flex items-center justify-between">
       <div>
-        <img class="w-1/3 mb-4 sm:mb-0" aria-hidden="true" src="media/images/SvelteLogo.png" alt="">
+        <img class="w-1/3 mb-4 sm:mb-0" aria-hidden="true" src="media/images/SvelteLogo.png" alt="Svelte Logo">
       </div>
       <div class={menuOpen ? 'block' : 'hidden md:flex'} id="menu">
         <a href="#about" class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
