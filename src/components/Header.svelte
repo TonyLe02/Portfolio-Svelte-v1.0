@@ -46,9 +46,9 @@
 <header class="border-b text-gray-800 p-4 md:p-4">
   <nav class="container mx-auto flex items-center justify-between">
     <div>
-      <a href="https://svelte.dev/">
+      <a href="https://svelte.dev/" aria-label="SvelteHomepage">
         <img
-          class="w-32 md:w-1/3 mb-4 sm:mb-0"
+          class="w-32 md:w-1/3"
           aria-hidden="true"
           src="media/images/SvelteLogo.png"
           alt="Svelte Logo"
@@ -87,7 +87,7 @@
         aria-label="Fun">FUN?</a
       >
     </div>
-    <button class="md:hidden" on:click={toggleMenu}>
+    <button class="md:hidden" aria-label="Toggle menu" on:click={toggleMenu}>
       <svg
         class={menuOpen ? "hidden" : "w-6 h-6"}
         stroke="currentColor"
