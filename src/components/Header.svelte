@@ -49,7 +49,7 @@
       <img
         class="w-32 md:w-1/3"
         aria-hidden="true"
-        src="media/images/SvelteLogo.png"
+        src="media/images/powered-madewithsvelte-dark.png"
         alt="Svelte Logo"
       />
     </div>
