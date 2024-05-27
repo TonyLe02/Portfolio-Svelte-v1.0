@@ -18,7 +18,7 @@
     My name is Tony Nguyen Le
   </h1>
   <p
-    class="text-xl mb-4 bg-clip-text text-transparent font-extrabold bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 mb-8"
+    class="text-xl bg-clip-text text-transparent font-extrabold bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 mb-8"
   >
     I'm an aspiring developer with a passion for data technology.
   </p>
