@@ -45,7 +45,7 @@
 
 <section>
   <!-- Navigation Bar -->
-  <nav class="p-4 shadow-md">
+  <nav class="p-4 shadow-2xl">
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center">
         <img
