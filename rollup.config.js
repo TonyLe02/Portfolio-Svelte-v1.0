@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
 import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
-import css from 'rollup-plugin-css-only';
+import postcss from 'rollup-plugin-postcss'
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -44,10 +44,11 @@ export default {
 				dev: !production
 			}
 		}),
-		// we'll extract any component CSS out into
-		// a separate file - better for performance
-		css({ output: 'bundle.css' }),
-
+		postcss({
+			plugins: [],
+			extract: 'bundle.css', // the output file in your public/build directory
+		  }),
+	  
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
 		// some cases you'll need additional configuration -

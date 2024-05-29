@@ -1,4 +1,5 @@
 import App from './App.svelte';
+import './tailwind.output.css';
 
 const app = new App({
 	target: document.body,
