@@ -44,6 +44,7 @@
 </script>
 
 <section>
+  <!-- Navigation Bar -->
   <nav class="p-4 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center">
@@ -53,6 +54,7 @@
           class="w-32"
         />
       </div>
+      <!-- Navigation Links -->
       <div class="hidden md:flex space-x-6">
         <a
           href="#about"
@@ -85,6 +87,7 @@
           >FUN?</a
         >
       </div>
+      <!-- For drawing the menu buttons -->
       <div class="md:hidden">
         <button
           id="menu-button"
@@ -125,6 +128,7 @@
         </button>
       </div>
     </div>
+    <!-- For opening and closing the menu -->
     <div
       id="menu"
       class={`md:hidden mt-2 dropdown-transition ${menuOpen ? "open" : ""}`}
@@ -163,6 +167,7 @@
   </nav>
 </section>
 
+<!-- Back to top button -->
 <button
   on:click={topFunction}
   id="myBtn"
@@ -177,6 +182,7 @@
   />
 </button>
 
+<!-- Transition effect for mobile expansion and collapse -->
 <style>
   .dropdown-transition {
     transition: max-height 0.5s ease-in-out;
