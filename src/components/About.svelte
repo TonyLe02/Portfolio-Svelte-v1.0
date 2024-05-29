@@ -33,7 +33,7 @@
     I hope you enjoy scrolling through and learning more about me!
   </p>
   <a
-    href="https://www.linkedin.com/in/tonynl02"
+    href="https://www.linkedin.com/in/tonynl02" target="_blank"
     class="flex justify-center bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 text-white font-bold py-2 px-4 hover:bg-gradient-to-r hover:from-red-600 hover:via-yellow-600 hover:to-blue-600 rounded transition duration-300 ease-in-out"
   >
     Want to learn more about me?
