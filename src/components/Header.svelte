@@ -43,101 +43,125 @@
   });
 </script>
 
-<header class="border-b text-gray-800 p-4 md:p-4">
-  <nav class="container mx-auto flex items-center justify-between">
-    <div>
-      <img
-        class="w-32 md:w-1/3"
-        aria-hidden="true"
-        src="media/images/powered-madewithsvelte-dark.png"
-        alt="Svelte Logo"
-      />
-    </div>
-
-    <style>
-      body {
-        overflow-x: hidden;
-      }
-    </style>
-
-    <ul
-      class={menuOpen
-        ? "flex flex-wrap justify-around"
-        : "hidden md:flex justify-around"}
-      id="menu"
-    >
-      <li>
+<section>
+  <nav class="p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center">
+        <img
+          src="/media/images/powered-madewithsvelte-dark.png"
+          alt="Svlete Logo"
+          class="w-32"
+        />
+      </div>
+      <div class="hidden md:flex space-x-6">
         <a
           href="#about"
           class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-          aria-label="About">About</a
+          >About</a
         >
-      </li>
-      <li>
         <a
           href="#contact"
           class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-          aria-label="Contact">Contact</a
+          >Contact</a
         >
-      </li>
-      <li>
         <a
           href="#news"
           class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-          aria-label="News">News</a
+          >News</a
         >
-      </li>
-      <li>
         <a
           href="#portfolio"
           class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-          aria-label="Portfolio">Portfolio</a
+          >Portfolio</a
         >
-      </li>
-      <li>
         <a
           href="#resume"
           class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-          aria-label="Resume">Resume</a
+          >Resume</a
         >
-      </li>
-      <li>
         <a
           href="#fun"
           class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
-          aria-label="Fun">FUN?</a
+          >FUN?</a
         >
-      </li>
-    </ul>
-
-    <button class="md:hidden" aria-label="Toggle menu" on:click={toggleMenu}>
-      <svg
-        class={menuOpen ? "hidden" : "w-6 h-6"}
-        stroke="currentColor"
-        viewBox="0 0 24 24"
+      </div>
+      <div class="md:hidden">
+        <button
+          id="menu-button"
+          class="focus:outline-none"
+          on:click={toggleMenu}
+        >
+          {#if menuOpen}
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          {:else}
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          {/if}
+        </button>
+      </div>
+    </div>
+    <div
+      id="menu"
+      class={`md:hidden mt-2 dropdown-transition ${menuOpen ? "open" : ""}`}
+    >
+      <a
+        href="#about"
+        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        >About</a
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 6h16M4 12h16m-7 6h7"
-        ></path>
-      </svg>
-      <svg
-        class={menuOpen ? "w-6 h-6" : "hidden"}
-        stroke="currentColor"
-        viewBox="0 0 24 24"
+      <a
+        href="#contact"
+        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        >Contact</a
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M6 18L18 6M6 6l12 12"
-        ></path>
-      </svg>
-    </button>
+      <a
+        href="#news"
+        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        >News</a
+      >
+      <a
+        href="#portfolio"
+        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        >Portfolio</a
+      >
+      <a
+        href="#resume"
+        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        >Resume</a
+      >
+      <a
+        href="#fun"
+        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        >FUN?</a
+      >
+    </div>
   </nav>
-</header>
+</section>
 
 <button
   on:click={topFunction}
@@ -146,9 +170,21 @@
   class="hidden fixed bottom-8 right-8 z-50 cursor-pointer p-3 rounded-full text-lg"
 >
   <img
-    src="media/images/icons8-arrow-up-90.png"
+    src="/media/images/icons8-arrow-up-90.png"
     alt="Go Up"
     width="40"
     height="40"
   />
 </button>
+
+<style>
+  .dropdown-transition {
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .dropdown-transition.open {
+    max-height: 500px;
+  }
+</style>
