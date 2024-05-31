@@ -1,11 +1,8 @@
-import App from './App.svelte';
+import Layout from './routes/+layout.svelte';
 import './tailwind.output.css';
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+const app = new Layout({
+  target: document.body
 });
 
 export default app;
