@@ -13,7 +13,7 @@
         <a href="https://www.swipload.com/">
           <img
             src="/media/images/Swipload.png"
-            alt="Swipload"
+            alt="Swipload Logo"
             class="object-cover w-full h-auto mb-12"
           /></a
         >
@@ -22,7 +22,7 @@
         <a href="https://nosted.com/">
           <img
             src="/media/images/nlogo.png"
-            alt="Nøsted"
+            alt="Nøsted Logo"
             class="object-cover w-full h-auto mb-12"
           /></a
         >
@@ -31,7 +31,7 @@
         <a href="https://www.nito.no/om-nito/">
           <img
             src="/media/images/nito-logo-uten-bakgrunn.png"
-            alt="NITO"
+            alt="NITO Logo"
             class="object-cover w-48 h-auto mb-12"
           /></a
         >
@@ -39,8 +39,8 @@
       <li class="w-1/5">
         <a href="https://www.uia.no/">
           <img
-            src="/media/images/R.png"
-            alt="UiA"
+            src="/media/images/UiA_Logo.png"
+            alt="UiA Logo"
             class="object-cover w-full h-auto mb-12"
           /></a
         >
