@@ -40,7 +40,7 @@
       <li class="w-1/5">
         <a href="https://www.uia.no/" target="_blank">
           <img
-            src="/media/images/UiA_logo."
+            src="/media/images/UiA_logo.png"
             alt="UiA Logo"
             class="object-cover w-full h-auto mb-12"
           /></a
