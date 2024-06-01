@@ -39,7 +39,7 @@
       <li class="w-1/5">
         <a href="https://www.uia.no/">
           <img
-            src="/media/images/UiA_Logo.png"
+            src="/media/images/UiA_logo.png"
             alt="UiA Logo"
             class="object-cover w-full h-auto mb-12"
           /></a
