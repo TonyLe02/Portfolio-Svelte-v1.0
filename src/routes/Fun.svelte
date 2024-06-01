@@ -25,7 +25,7 @@
     </p>
     <img
       class="object-cover mx-auto w-48 mt-8 h-auto"
-      src="/media/images/minecraft_armadillo_png_by_coenisawesome_dgez7dq-fullview.png"
+      src="/media/images/minecraft_armadillo.png"
       alt="armadillo"
       aria-hidden="true"
     />
