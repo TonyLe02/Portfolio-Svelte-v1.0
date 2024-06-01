@@ -10,7 +10,7 @@
     <h2 class="text-4xl mb-4">Work History</h2>
     <ul class="container mx-auto flex items-center justify-evenly">
       <li class="w-1/5">
-        <a href="https://www.swipload.com/">
+        <a href="https://www.swipload.com/" target="_blank">
           <img
             src="/media/images/Swipload.png"
             alt="Swipload Logo"
@@ -19,16 +19,17 @@
         >
       </li>
       <li class="w-1/6">
-        <a href="https://nosted.com/">
+        <a href="https://nosted.com/" target="_blank">
           <img
             src="/media/images/nøsted_logo.png"
+            target="_blank"
             alt="Nøsted Logo"
             class="object-cover w-full h-auto mb-12"
           /></a
         >
       </li>
       <li class="w-1/6">
-        <a href="https://www.nito.no/om-nito/">
+        <a href="https://www.nito.no/om-nito/" target="_blank">
           <img
             src="/media/images/nito-logo-uten-bakgrunn.png"
             alt="NITO Logo"
@@ -37,7 +38,7 @@
         >
       </li>
       <li class="w-1/5">
-        <a href="https://www.uia.no/">
+        <a href="https://www.uia.no/" target="_blank">
           <img
             src="/media/images/UiA_logo.png"
             alt="UiA Logo"
