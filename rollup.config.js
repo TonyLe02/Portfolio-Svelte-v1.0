@@ -1,3 +1,4 @@
+// rollup.config.js
 import { spawn } from 'child_process';
 import svelte from 'rollup-plugin-svelte';
 import commonjs from '@rollup/plugin-commonjs';
