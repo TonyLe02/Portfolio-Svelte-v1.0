@@ -1,11 +1,28 @@
 <script>
+  import { particlesConfig } from '../../particles-config.js';
+  import { onMount } from "svelte";
+  
   let menuOpen = false;
   function toggleMenu() {
     menuOpen = !menuOpen;
   }
+
+  // This function will be called when the window is loaded
+  window.onload = function () {
+    if (window.particlesJS) {
+      window.particlesJS("particles-js", particlesConfig);
+    }
+  };
+
+  onMount(() => {
+    if (window.particlesJS) {
+      window.particlesJS("particles-js", particlesConfig);
+    }
+  });
 </script>
 
 <section id="about" class="bg-gray-800 p-10 text-center">
+  <div id="particles-js"></div>
   <img
     src="media/images/ProfilePicture.jpg"
     alt="Profile Picture"
@@ -33,9 +50,28 @@
     I hope you enjoy scrolling through and learning more about me!
   </p>
   <a
-    href="https://www.linkedin.com/in/tonynl02" target="_blank"
+    href="https://www.linkedin.com/in/tonynl02"
+    target="_blank"
     class="flex justify-center bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 text-white font-bold py-2 px-4 hover:bg-gradient-to-r hover:from-red-600 hover:via-yellow-600 hover:to-blue-600 rounded transition duration-300 ease-in-out"
   >
     Want to learn more about me?
   </a>
 </section>
+
+<style>
+  #particles-js {
+    position: absolute;
+    top: 0; /* Align to the top of the parent element */
+    left: 0; /* Align to the left of the parent element */
+    width: 100%; /* Take the full width of the parent element */
+    height: 100%; /* Take the full height of the parent element */
+    background-color: #1f2937; /* Adjust the color as needed */
+    z-index: -1; /* Ensure particles are behind the content */
+  }
+
+  #about {
+    position: relative; /* Establish a stacking context */
+    z-index: 1; /* Ensure this section is above the particles */
+    /* Rest of your styles */
+  }
+</style>
