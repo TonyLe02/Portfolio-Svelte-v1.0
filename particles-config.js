@@ -92,7 +92,7 @@ export const particlesConfig = {
           speed: 3,
         },
         repulse: {
-          distance: 100,
+          distance: 200,
           duration: 0.4,
         },
         push: {
