@@ -58,32 +58,32 @@
       <div class="hidden md:flex space-x-6">
         <a
           href="#about"
-          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >About</a
         >
         <a
           href="#contact"
-          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >Contact</a
         >
         <a
           href="#news"
-          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >News</a
         >
         <a
           href="#portfolio"
-          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >Portfolio</a
         >
         <a
           href="#resume"
-          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >Resume</a
         >
         <a
           href="#fun"
-          class="px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >FUN?</a
         >
       </div>
@@ -135,32 +135,32 @@
     >
       <a
         href="#about"
-        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >About</a
       >
       <a
         href="#contact"
-        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >Contact</a
       >
       <a
         href="#news"
-        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >News</a
       >
       <a
         href="#portfolio"
-        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >Portfolio</a
       >
       <a
         href="#resume"
-        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >Resume</a
       >
       <a
         href="#fun"
-        class="block px-4 py-2 hover:text-yellow-500 transition duration-300 ease-in-out"
+        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >FUN?</a
       >
     </div>
