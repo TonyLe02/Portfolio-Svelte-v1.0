@@ -48,11 +48,13 @@
   <nav class="p-4 shadow-2xl">
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center">
-        <img
-          src="/media/images/madewithsvelte-dark.png"
-          alt="Svlete Logo"
-          class="w-32"
-        />
+        <a href="https://svelte.dev/" target="_blank">
+          <img
+            src="/media/images/madewithsvelte-dark.png"
+            alt="Svlete Logo"
+            class="w-32"
+          />
+        </a>
       </div>
       <!-- Navigation Links -->
       <div class="hidden md:flex space-x-6">
