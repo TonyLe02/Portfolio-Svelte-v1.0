@@ -21,7 +21,7 @@
       <li class="w-1/6">
         <a href="https://nosted.com/">
           <img
-            src="/media/images/nlogo.png"
+            src="/media/images/nøsted_logo.png"
             alt="Nøsted Logo"
             class="object-cover w-full h-auto mb-12"
           /></a
