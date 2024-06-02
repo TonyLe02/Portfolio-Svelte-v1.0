@@ -1,7 +1,7 @@
 <script>
-  import { particlesConfig } from '../../particles-config.js';
+  import { particlesConfig } from "../../particles-config.js";
   import { onMount } from "svelte";
-  
+
   let menuOpen = false;
   function toggleMenu() {
     menuOpen = !menuOpen;
@@ -43,9 +43,13 @@
   <p class="text-2xl mb-8 text-white">
     Currently in my 2nd year of IT & Information Systems at the University of
     Agder.
-    <br /> I enjoy building applications and am constantly learning new things to
+  </p>
+
+  <p class="text-2xl mb-8 text-white">
+    I enjoy building applications and am constantly learning new things to
     improve my skills.
   </p>
+
   <p class="text-2xl mb-8 text-white">
     I hope you enjoy scrolling through and learning more about me!
   </p>
