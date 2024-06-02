@@ -41,7 +41,7 @@
   </p>
 
   <p class="text-2xl mb-8 text-white">
-    Currently in my 2nd year of IT & Information Systems at the University of
+    Currently in my 3rd year of IT & Information Systems at the University of
     Agder.
   </p>
 
