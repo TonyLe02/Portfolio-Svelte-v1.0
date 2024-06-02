@@ -70,7 +70,7 @@ export const particlesConfig = {
         mode: "repulse",
       },
       onclick: {
-        enable: false,
+        enable: false, // Disable bubble interaction on click
         mode: "push",
       },
       resize: true,
