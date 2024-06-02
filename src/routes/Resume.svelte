@@ -52,3 +52,14 @@
     </ul>
   </div>
 </section>
+
+<style>
+  ul {
+    list-style-type: none;
+  }
+  li::before {
+    content: "✓";
+    padding-right: 10px;
+    color: rgb(34, 197, 94);
+  }
+</style>
