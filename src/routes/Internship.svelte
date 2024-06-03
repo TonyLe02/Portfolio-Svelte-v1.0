@@ -39,8 +39,8 @@
     </p>
     <div class="flex flex-wrap justify-center items-center mt-4">
       <img
-        src="/media/images/Tangen_Babord.jpg"
-        alt="Tangen B"
+        src="/media/images/tangen-babord.jpg"
+        alt="Tangen Babord"
         class="w-1/1 mb-4 sm:mb-0"
       />
     </div>

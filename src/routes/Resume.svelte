@@ -30,14 +30,14 @@
     </p>
     <div class="flex flex-wrap justify-center items-center mt-4">
       <img
-        src="/media/images/NITOLandsmøte.jpg"
-        alt="NITO Group"
+        src="/media/images/nito-landsmøte.jpg"
+        alt="NITO Landsmøte"
         class="w-1/2 mb-4 sm:mb-0"
         aria-hidden="true"
       />
       <img
-        src="/media/images/GroupNITO.jpg"
-        alt="NITO Group"
+        src="/media/images/nito-stand.jpg"
+        alt="NITO Stand"
         class="w-1/2 mb-4 sm:mb-0"
         aria-hidden="true"
       />

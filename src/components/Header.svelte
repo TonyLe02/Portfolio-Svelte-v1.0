@@ -50,8 +50,8 @@
       <div class="flex items-center">
         <a href="https://svelte.dev/" target="_blank">
           <img
-            src="/media/images/madewithsvelte-dark.png"
-            alt="Svlete Logo"
+            src="/media/images/made-with-svelte-dark-icon.png"
+            alt="Svlete Icon"
             class="w-32"
           />
         </a>
@@ -177,7 +177,7 @@
   class="hidden fixed bottom-8 right-8 z-50 cursor-pointer p-3 rounded-full text-lg"
 >
   <img
-    src="/media/images/icons8-arrow-up-90.png"
+    src="/media/images/arrow-up-icon.png"
     alt="Go Up"
     width="40"
     height="40"

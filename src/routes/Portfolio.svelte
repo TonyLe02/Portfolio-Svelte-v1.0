@@ -46,13 +46,13 @@
     </p>
     <div class="flex flex-wrap justify-center items-center mt-4">
       <img
-        src="/media/images/NøstedApp1.png"
+        src="/media/images/nøsted-app-1.png"
         alt="Project Image 1"
         class="w-full mb-4 sm:mb-0"
         aria-hidden="true"
       />
       <img
-        src="/media/images/NøstedApp2.png"
+        src="/media/images/nøsted-app-2.png"
         alt="Project Image 2"
         class="w-full mb-4 sm:mb-0"
         aria-hidden="true"

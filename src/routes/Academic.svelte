@@ -33,7 +33,7 @@
     </p>
     <div class="flex flex-wrap justify-center items-center mt-4">
       <img
-        src="/media/images/UiA.png"
+        src="/media/images/uia-photo.png"
         alt="UiA"
         class="w-1/1 mb-4 sm:mb-0"
         aria-hidden="true"

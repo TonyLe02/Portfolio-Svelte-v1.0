@@ -24,7 +24,7 @@
 <section id="about" class="bg-gray-800 p-10 text-center">
   <div id="particles-js"></div>
   <img
-    src="media/images/ProfilePicture.jpg"
+    src="media/images/profile-picture.jpg"
     alt="Profile Picture"
     class="rounded-full w-32 h-32 mx-auto mb-4"
     aria-hidden="true"

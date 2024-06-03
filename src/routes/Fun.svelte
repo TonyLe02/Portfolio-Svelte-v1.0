@@ -14,7 +14,7 @@
     </h2>
     <img
       class="object-cover mx-auto w-48 mt-8 h-auto"
-      src="/media/images/mcduck.png"
+      src="/media/images/mc-duck.png"
       alt="duck"
       aria-hidden="true"
     />
@@ -25,7 +25,7 @@
     </p>
     <img
       class="object-cover mx-auto w-48 mt-8 h-auto"
-      src="/media/images/minecraft_armadillo.png"
+      src="/media/images/mc-armadillo.png"
       alt="armadillo"
       aria-hidden="true"
     />
@@ -36,7 +36,7 @@
     </p>
     <img
       class="object-cover mx-auto w-48 mt-8 h-auto"
-      src="/media/images/Panda.png"
+      src="/media/images/mc-panda.png"
       alt="panda"
       aria-hidden="true"
     />
@@ -47,7 +47,7 @@
     </p>
     <img
       class="object-cover mx-auto w-48 mt-8 h-auto"
-      src="/media/images/mcsalmon.png"
+      src="/media/images/mc-salmon.png"
       alt="salmon"
       aria-hidden="true"
     />
@@ -58,7 +58,7 @@
     </p>
     <img
       class="object-cover mx-auto w-48 mt-8 h-auto"
-      src="/media/images/mcfrog.png"
+      src="/media/images/mc-frog.png"
       alt="frog"
       aria-hidden="true"
     />

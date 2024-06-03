@@ -22,7 +22,7 @@
       <li>
         <a href="mailto:lee.tony2002@gmail.com" target="_blank">
           <img
-            src="/media/images/icons8-email-96.png"
+            src="/media/images/email-icon.png"
             alt="Email"
             width="30"
             height="30"
@@ -32,7 +32,7 @@
       <li>
         <a href="https://www.linkedin.com/in/tonynl02" target="_blank">
           <img
-            src="/media/images/icons8-linkedin-128.png"
+            src="/media/images/linkedin-icon.png"
             alt="LinkedIn"
             width="30"
             height="30"
@@ -42,7 +42,7 @@
       <li>
         <a href="https://github.com/TonyLe02" target="_blank">
           <img
-            src="/media/images/icons8-github-128.png"
+            src="/media/images/github-icon.png"
             alt="GitHub"
             width="30"
             height="30"
@@ -52,7 +52,7 @@
       <li>
         <a href="https://www.instagram.com/tonyle02" target="_blank">
           <img
-            src="/media/images/icons8-instagram-128.png"
+            src="/media/images/instagram-icon.png"
             alt="Instagram"
             width="30"
             height="30"
@@ -62,7 +62,7 @@
       <li>
         <a href="https://www.facebook.com/tonyle300602" target="_blank">
           <img
-            src="/media/images/icons8-facebook-128.png"
+            src="/media/images/facebook-icon.png"
             alt="Facebook"
             width="30"
             height="30"
