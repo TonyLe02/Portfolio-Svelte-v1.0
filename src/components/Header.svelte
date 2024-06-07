@@ -84,6 +84,11 @@
           >Resume</a
         >
         <a
+          href="#academic"
+          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
+          >Academic</a
+        >
+        <a
           href="#fun"
           class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >FUN?</a
@@ -159,6 +164,12 @@
         href="#resume"
         class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >Resume</a
+        
+      >
+      <a
+        href="#academic"
+        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
+        >Academic</a
       >
       <a
         href="#fun"
