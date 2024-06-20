@@ -44,6 +44,12 @@
       order overview. Our goal was to create a user-friendly interface that made
       the maintenance process more efficient and manageable.
     </p>
+    <img
+      src="/media/images/grade-result.png" 
+      alt="Grade Result"
+      class="w-1/2 mx-auto mb-4"
+      aria-hidden="true"
+    />
     <div class="flex flex-wrap justify-center items-center mt-4">
       <img
         src="/media/images/nøsted-app-1.png"
