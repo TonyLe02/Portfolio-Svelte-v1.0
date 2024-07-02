@@ -88,11 +88,11 @@
           class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >Academic</a
         >
-        <a
+        <!-- <a
           href="#fun"
           class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
           >FUN?</a
-        >
+        > -->
       </div>
       <!-- For drawing the menu buttons -->
       <div class="md:hidden">
@@ -171,11 +171,11 @@
         class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >Academic</a
       >
-      <a
+      <!-- <a
         href="#fun"
         class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
         >FUN?</a
-      >
+      > -->
     </div>
   </nav>
 </section>

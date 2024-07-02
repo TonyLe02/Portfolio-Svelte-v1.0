@@ -22,7 +22,7 @@
   <Portfolio />
   <Resume />
   <Academic />
-  <Fun />
+  <!-- <Fun /> -->
 </main>
 
 <Footer />
