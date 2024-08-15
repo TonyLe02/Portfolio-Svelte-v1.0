@@ -8,7 +8,6 @@
   import Internship from "../routes/Internship.svelte";
   import Portfolio from "../routes/Portfolio.svelte";
   import Resume from "../routes/Resume.svelte";
-  import Fun from "../routes/Fun.svelte";
   import Academic from "../routes/Academic.svelte";
 </script>
 
