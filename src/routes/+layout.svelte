@@ -6,7 +6,7 @@
   import History from "../routes/History.svelte";
   import Contact from "../routes/Contact.svelte";
   import Internship from "../routes/Internship.svelte";
-  import Portfolio from "../routes/Portfolio.svelte";
+  import Projects from "./Projects.svelte";
   import Resume from "../routes/Resume.svelte";
   import Academic from "../routes/Academic.svelte";
 </script>
@@ -15,10 +15,10 @@
 
 <main>
   <About />
-  <History />
   <Contact />
+  <History />
   <Internship />
-  <Portfolio />
+  <Projects />
   <Resume />
   <Academic />
 </main>

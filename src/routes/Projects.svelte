@@ -45,7 +45,7 @@
       the maintenance process more efficient and manageable.
     </p>
     <img
-      src="/media/images/grade-result.png" 
+      src="/media/images/grade-result.png"
       alt="Grade Result"
       class="w-1/2 mx-auto mb-4"
       aria-hidden="true"

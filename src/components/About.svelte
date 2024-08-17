@@ -53,7 +53,6 @@
   <p class="text-2xl mb-8 text-white">
     I hope you enjoy scrolling through and learning more about me!
   </p>
-  <br />
 </section>
 
 <style>

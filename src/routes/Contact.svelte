@@ -5,10 +5,10 @@
   }
 </script>
 
-<section id="contact" class="bg-black text-white p-8">
+<section id="contact" class="bg-black text-white text-center p-8">
   <div class="container mx-auto">
     <h2
-      class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 mb-4"
+      class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 mb-4"
     >
       Contact Information
     </h2>
@@ -18,7 +18,7 @@
     <p class="text-xl mb-4">
       Feel free to get in touch with me through the following channels:
     </p>
-    <ul class="flex space-x-4">
+    <ul>
       <li>
         <a href="mailto:lee.tony2002@gmail.com" target="_blank">
           <img
@@ -72,3 +72,23 @@
     </ul>
   </div>
 </section>
+<hr />
+
+<style>
+  #contact ul {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    list-style-type: none; /* Removes bullet points */
+  }
+
+  #contact li {
+    margin: 0 10px; /* Adds spacing between icons */
+  }
+
+  #contact a {
+    display: flex;
+    align-items: center; /* Centers icons vertically if needed */
+  }
+</style>
