@@ -54,7 +54,7 @@
     <h2
       class="text-xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500"
     >
-      August, 13th 2024
+      August 20th, 2024
     </h2>
     <p>
       This week is the start of my internship at Swipload Technologies AS. I am
