@@ -7,7 +7,7 @@
 
 <section id="academic" class="bg-black text-white p-8">
   <div class="container mx-auto">
-    <h2 class="text-5xl mb-4">Academic Journey in IT</h2>
+    <h2 class="text-5xl mb-4">Academics in IT</h2>
     <p class="text-xl mb-8">Learn more about my academic journey and skills:</p>
     <h2
       class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 mb-4"
