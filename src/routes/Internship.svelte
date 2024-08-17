@@ -7,6 +7,28 @@
 
 <section id="internship" class="bg-black text-white p-8">
   <div class="container mx-auto">
+    <h2 class="text-5xl font-bold mb-8">Internship at Swipload</h2>
+    <!-- Internship Status -->
+
+    <h2
+      class="text-3xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500"
+    >
+      Internship Status - #1
+    </h2>
+
+    <h2
+      class="text-xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500"
+    >
+      August, 13th 2024
+    </h2>
+    <p class="mb-12">
+      This week is the start of my internship at Swipload Technologies AS. I am
+      excited to be part of the few students joining their team, and I look
+      forward to learning a lot on the road ahead. Stay tuned for updates on my
+      progress and my experiences at Swipload Technologies AS. We are just
+      getting started! 🚀
+    </p>
+
     <!-- Blog Title -->
     <h2
       class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"

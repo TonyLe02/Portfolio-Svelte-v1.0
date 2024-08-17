@@ -29,28 +29,32 @@
     class="rounded-full w-32 h-32 mx-auto mb-4"
     aria-hidden="true"
   />
-  <h1
-    class="block bg-clip-text text-transparent font-extrabold text-4xl py-2 bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 mb-2"
-  >
-    My name is Tony Nguyen Le
+  <h1 class="block font-extrabold text-4xl py-2 text-white mb-2">
+    Tony Nguyen Le
   </h1>
   <p
-    class="text-xl bg-clip-text text-transparent font-extrabold bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 mb-8"
+    class="text-xl font-extrabold text-white mb-8"
   >
     I'm an aspiring developer with a passion for data technology.
   </p>
 
-  <p class="text-2xl mb-8 text-white">
+  <p
+    class="text-2xl mb-8 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-blue-600 to-red-500"
+  >
     Currently in my 3rd year of IT & Information Systems at the University of
     Agder.
   </p>
 
-  <p class="text-2xl mb-8 text-white">
+  <p
+    class="text-2xl mb-8 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-blue-600 to-red-500"
+  >
     I enjoy building applications and am constantly learning new things to
     improve my skills.
   </p>
 
-  <p class="text-2xl mb-8 text-white">
+  <p
+    class="text-2xl mb-8 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-blue-600 to-red-500"
+  >
     I hope you enjoy scrolling through and learning more about me!
   </p>
 </section>
