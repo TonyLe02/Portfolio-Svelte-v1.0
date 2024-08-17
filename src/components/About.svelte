@@ -53,13 +53,7 @@
   <p class="text-2xl mb-8 text-white">
     I hope you enjoy scrolling through and learning more about me!
   </p>
-  <a
-    href="https://www.linkedin.com/in/tonynl02"
-    target="_blank"
-    class="flex justify-center bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 text-white font-bold py-2 px-4 hover:bg-gradient-to-r hover:from-red-600 hover:via-yellow-600 hover:to-blue-600 rounded transition duration-300 ease-in-out"
-  >
-    Want to learn more about me?
-  </a>
+  <br />
 </section>
 
 <style>
@@ -69,7 +63,7 @@
     left: 0; /* Align to the left of the parent element */
     width: 100%; /* Take the full width of the parent element */
     height: 100%; /* Take the full height of the parent element */
-    background-color: #1f2937; /* Adjust the color as needed */
+    background-color: #000000; /* Adjust the color as needed */
     z-index: -1; /* Ensure particles are behind the content */
   }
 

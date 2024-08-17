@@ -5,14 +5,13 @@
   }
 </script>
 
-<section id="news" class="bg-gray-800 text-white p-8">
+<section id="internship" class="bg-black text-white p-8">
   <div class="container mx-auto">
-    <h2 class="text-5xl mb-4">Latest News</h2>
     <!-- Blog Title -->
     <h2
       class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
     >
-      Upcoming Internship - 5th Semester
+      Internship - 5th Semester
     </h2>
     <h2
       class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"

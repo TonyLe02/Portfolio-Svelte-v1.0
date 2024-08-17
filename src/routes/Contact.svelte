@@ -5,10 +5,10 @@
   }
 </script>
 
-<section id="contact" class="bg-gray-800 text-white p-8">
+<section id="contact" class="bg-black text-white p-8">
   <div class="container mx-auto">
     <h2
-      class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-300 to-red-200 mb-4"
+      class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 mb-4"
     >
       Contact Information
     </h2>
