@@ -72,7 +72,6 @@
     </ul>
   </div>
 </section>
-<hr />
 
 <style>
   #contact ul {
