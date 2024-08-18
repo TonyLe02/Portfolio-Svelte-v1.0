@@ -33,7 +33,7 @@
       needed.
     </p>
     <p class="mb-4">
-      The project was developed using .NET and C#, which required us to become
+      The project was developed using .NET & C#, which required us to become
       familiar with these technologies. This provided us with valuable
       experience in using powerful tools for web development.
     </p>
@@ -68,7 +68,7 @@
     <ul class="text-lg list-disc list-inside">
       <li>System Analysis</li>
       <li>Database Management with MariaDB</li>
-      <li>Web Development with .NET and C#</li>
+      <li>Web Development with .NET & C#</li>
       <li>User Interface Design</li>
       <li>Project Management</li>
     </ul>
