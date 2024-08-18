@@ -8,7 +8,7 @@
 <section id="contact" class="bg-black text-white text-center p-8">
   <div class="container mx-auto">
     <h2
-      class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-blue-600 to-red-500 mb-4"
+      class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-600 to-red-500 mb-4"
     >
       Contact Information
     </h2>
