@@ -30,12 +30,12 @@
     aria-hidden="true"
   />
   <h1
-    class="block font-extrabold text-4xl py-2 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-600 to-red-500 mb-2"
+    class="block font-extrabold text-4xl py-2 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-yellow-600 to-red-500 mb-2"
   >
     Tony Nguyen Le
   </h1>
   <p
-    class="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-600 to-red-500 mb-8"
+    class="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-yellow-600 to-red-500 mb-8"
   >
     I'm an aspiring developer with a passion for data technology.
   </p>

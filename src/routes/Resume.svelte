@@ -5,7 +5,7 @@
   }
 </script>
 
-<section id="experience " class="bg-black text-white p-8">
+<section id="experience " class="bg-nero text-white p-8">
   <div class="container mx-auto">
     <h2 class="text-5xl mb-4">Experience </h2>
     <p class="text-xl mb-8">Learn more about my experience and skills:</p>

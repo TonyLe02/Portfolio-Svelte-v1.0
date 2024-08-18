@@ -5,7 +5,7 @@
   }
 </script>
 
-<section id="academic" class="bg-black text-white p-8">
+<section id="academic" class="bg-nero text-white p-8">
   <div class="container mx-auto">
     <h2 class="text-5xl mb-4">Student in IT</h2>
     <p class="text-xl mb-8">Learn more about my academic journey and skills:</p>

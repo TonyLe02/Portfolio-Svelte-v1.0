@@ -5,7 +5,7 @@
   }
 </script>
 
-<section id="internship" class="bg-black text-white p-8">
+<section id="internship" class="bg-nero text-white p-8">
   <div class="container mx-auto">
     <!-- Blog Title -->
     <h2
