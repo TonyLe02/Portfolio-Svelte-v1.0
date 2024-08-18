@@ -62,7 +62,7 @@
     left: 0; /* Align to the left of the parent element */
     width: 100%; /* Take the full width of the parent element */
     height: 100%; /* Take the full height of the parent element */
-    background-color: #000000; /* Adjust the color as needed */
+    background-color: #121212; /* Adjust the color as needed */
     z-index: -1; /* Ensure particles are behind the content */
   }
 

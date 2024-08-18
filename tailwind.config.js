@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         svelte: '#FF3E00',
+        nero: '#121212',
       },
     },
   },
