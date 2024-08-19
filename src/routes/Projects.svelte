@@ -7,8 +7,6 @@
 
 <section id="projects" class="bg-nero text-white p-8">
   <div class="container mx-auto">
-    <h2 class="text-5xl mb-4">Projects</h2>
-    <p class="text-xl mb-8">Here are a few projects I've worked on:</p>
     <h2
       class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 mb-4"
     >
@@ -74,6 +72,7 @@
     </ul>
   </div>
 </section>
+<hr />
 
 <style>
   ul {
