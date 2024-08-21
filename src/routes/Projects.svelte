@@ -42,26 +42,40 @@
       order overview. Our goal was to create a user-friendly interface that made
       the maintenance process more efficient and manageable.
     </p>
+<div class="container mx-auto py-8">
+  <div class="flex justify-center mb-4">
     <img
       src="/media/images/grade-result.png"
       alt="Grade Result"
-      class="w-1/2 mx-auto mb-4"
+      class="w-full max-w-md h-auto object-cover rounded-lg shadow-md"
       aria-hidden="true"
     />
-    <div class="flex flex-wrap justify-center items-center mt-4">
+  </div>
+</div>
+
+<!-- Image Section -->
+<div class="container mx-auto py-8">
+  <div class="flex flex-wrap justify-center gap-6">
+    <div class="w-full sm:w-1/2 md:w-1/1 lg:w-full px-2 mb-4">
       <img
         src="/media/images/nøsted-app-1.png"
         alt="Project Image 1"
-        class="w-full mb-4 sm:mb-0"
-        aria-hidden="true"
-      />
-      <img
-        src="/media/images/nøsted-app-2.png"
-        alt="Project Image 2"
-        class="w-full mb-4 sm:mb-0"
+        class="w-full h-auto object-cover rounded-lg shadow-md"
         aria-hidden="true"
       />
     </div>
+    <div class="w-full sm:w-1/2 md:w-1/1 lg:w-full px-2 mb-4">
+      <img
+        src="/media/images/nøsted-app-2.png"
+        alt="Project Image 2"
+        class="w-full h-auto object-cover rounded-lg shadow-md"
+        aria-hidden="true"
+      />
+    </div>
+  </div>
+</div>
+
+
     <p class="text-3xl text-green-500 font-bold mt-4">Skills Learned:</p>
     <ul class="text-lg list-disc list-inside">
       <li>System Analysis</li>

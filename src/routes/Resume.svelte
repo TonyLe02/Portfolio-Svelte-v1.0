@@ -28,20 +28,27 @@
       This role has not only strengthened my leadership skills, but also my
       ability to work effectively in a team and manage complex projects.
     </p>
-    <div class="flex flex-wrap justify-center items-center mt-4">
-      <img
-        src="/media/images/nito-landsmøte.jpg"
-        alt="NITO Landsmøte"
-        class="w-1/2 mb-4 sm:mb-0"
-        aria-hidden="true"
-      />
-      <img
-        src="/media/images/nito-stand.jpg"
-        alt="NITO Stand"
-        class="w-1/2 mb-4 sm:mb-0"
-        aria-hidden="true"
-      />
+    <div class="container mx-auto py-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <img
+            src="/media/images/nito-landsmøte.jpg"
+            alt="NITO Landsmøte"
+            class="w-full h-auto object-cover rounded-lg shadow-md"
+            aria-hidden="true"
+          />
+        </div>
+        <div>
+          <img
+            src="/media/images/nito-stand.jpg"
+            alt="NITO Stand"
+            class="w-full h-auto object-cover rounded-lg shadow-md"
+            aria-hidden="true"
+          />
+        </div>
+      </div>
     </div>
+
     <p class="text-3xl text-green-500 font-bold mt-4">Skills Learned:</p>
     <ul class="text-lg list-disc list-inside">
       <li>Leadership</li>
