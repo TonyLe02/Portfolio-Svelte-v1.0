@@ -40,7 +40,7 @@
       <img
         src="/media/images/tangen-babord.jpg"
         alt="Tangen Babord"
-        class="w-1/1 mb-4 sm:mb-0"
+        class="rounded-lg w-full h-auto object-cover mb-4 sm:mb-2 md:mb-4 lg:mb-6"
       />
     </div>
 

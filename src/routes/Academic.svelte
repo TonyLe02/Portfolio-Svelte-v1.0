@@ -35,7 +35,7 @@
       <img
         src="/media/images/uia-photo.png"
         alt="UiA"
-        class="w-1/1 mb-4 sm:mb-0"
+        class="rounded-lg w-1/1 mb-4 sm:mb-0" 
         aria-hidden="true"
       />
     </div>
