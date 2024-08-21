@@ -74,20 +74,38 @@
 </section>
 
 <style>
+  /* Additional CSS for Contact component */
   #contact ul {
     display: flex;
-    justify-content: center; /* Centers items horizontally */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
-    list-style-type: none; /* Removes bullet points */
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
   }
 
   #contact li {
-    margin: 0 10px; /* Adds spacing between icons */
+    margin: 0 10px;
   }
 
   #contact a {
     display: flex;
-    align-items: center; /* Centers icons vertically if needed */
+    align-items: center;
+  }
+
+  /* Additional CSS for icon styling */
+  #contact {
+    display: flex;
+    gap: 10px;
+  }
+  #contact img {
+    width: 30px;
+    height: 30px;
+    transition:
+      transform 0.3s ease,
+      filter 0.3s ease;
+  }
+  #contact img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
   }
 </style>
