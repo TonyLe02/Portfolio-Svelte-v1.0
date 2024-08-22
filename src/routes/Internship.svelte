@@ -18,7 +18,24 @@
     >
       (Aug 2024 - 2025)
     </h2>
-    <p class="text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4">Joining Swipload Technologies AS</p>
+    <p
+    class="text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
+    >
+    Joining Swipload Technologies AS
+  </p>
+  <p>
+    <a
+      href="https://nthomtng.github.io/PraksisNettSide/index.html"
+      class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-600 to-red-500
+       hover:underline hover:text-green-500 transition-colors duration-300 ease-in-out"
+    >
+      Visit Our Internship Website - Click Here
+    </a>
+  </p>
+
+    <p
+      class="text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
+    ></p>
     <p class="mb-4">
       This Fall 2024, I am thrilled to embark on a new journey as an intern at
       Swipload Technologies AS. This opportunity marks a significant step in my
@@ -65,4 +82,4 @@
     </p>
   </div>
 </section>
-<hr>
+<hr />
