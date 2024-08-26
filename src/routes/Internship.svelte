@@ -11,7 +11,7 @@
     <h2
       class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
     >
-      Internship at Swipload - 5th Semester
+      Internship - 5th Semester
     </h2>
     <h2
       class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
@@ -29,7 +29,7 @@
       class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-600 to-red-500
        hover:underline hover:text-green-500 transition-colors duration-300 ease-in-out"
     >
-      Visit Our Internship Website - Click Here
+      Intern Website - Click Here
     </a>
   </p>
 
