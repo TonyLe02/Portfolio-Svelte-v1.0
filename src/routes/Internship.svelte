@@ -26,7 +26,7 @@
   <p>
     <a
       href="https://nthomtng.github.io/PraksisNettSide/index.html"
-      class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-600 to-red-500
+      class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-600
        hover:underline hover:text-green-500 transition-colors duration-300 ease-in-out"
     >
       Intern Website - Click Here
