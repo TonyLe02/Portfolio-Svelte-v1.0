@@ -5,7 +5,7 @@
   }
 </script>
 
-<section class="bg-white text-center p-8 shadow-lg rounded-lg">
+<section class="bg-white text-center p-8 shadow-lg rounded-lg overflow-hidden">
   <div class="container mx-auto">
     <h2 class="text-4xl mb-4">Work History</h2>
     <ul class="container mx-auto flex items-center justify-evenly">
