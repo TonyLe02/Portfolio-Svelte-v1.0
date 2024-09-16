@@ -4,3 +4,4 @@
 .DS_Store
 
 tailwind.output.css
+package-lock.json
