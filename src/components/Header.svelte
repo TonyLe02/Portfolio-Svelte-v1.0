@@ -45,126 +45,83 @@
 
 <section>
   <!-- Navigation Bar -->
-  <nav class="p-4 shadow-2xl">
-    <div class="container mx-auto flex justify-between items-center">
-      <div class="flex items-center">
-        <a href="https://svelte.dev/" target="_blank">
-          <img
-            src="/media/images/made-with-svelte-dark-icon.png"
-            alt="Svlete Icon"
-            class="w-32"
-          />
-        </a>
-      </div>
-      <!-- Navigation Links -->
-      <div class="hidden md:flex space-x-6">
-        <a
-          href="#about"
-          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-          >About</a
-        >
-        <a
-          href="#contact"
-          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-          >Contact</a
-        >
-        <a
-          href="#internship"
-          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-          >Internship</a
-        >
-        <a
-          href="#projects"
-          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-          >Projects</a
-        >
-        <a
-          href="#experience "
-          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-          >Experience
-        </a>
-        <a
-          href="#academic"
-          class="px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-          >Academic</a
-        >
-      </div>
-      <!-- For drawing the menu buttons -->
-      <div class="md:hidden">
-        <button
-          id="menu-button"
-          class="focus:outline-none"
-          on:click={toggleMenu}
-        >
-          {#if menuOpen}
-            <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
-            </svg>
-          {:else}
-            <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              ></path>
-            </svg>
-          {/if}
-        </button>
-      </div>
-    </div>
-    <!-- For opening and closing the menu -->
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div
-      id="menu"
-      class={`md:hidden mt-2 dropdown-transition ${menuOpen ? "open" : ""}`}
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <a
-        href="#about"
-        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-        >About</a
+        href="https://svelte.dev/"
+        target="_blank"
+        class="flex items-center space-x-3 rtl:space-x-reverse"
       >
-      <a
-        href="#contact"
-        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-        >Contact</a
-      >
-      <a
-        href="#internship"
-        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-        >Internship</a
-      >
-      <a
-        href="#projects"
-        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-        >Projects</a
-      >
-      <a
-        href="#experience "
-        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-        >Experience
+        <img
+          src="/media/images/made-with-svelte-dark-icon.png"
+          class="h-8"
+          alt="Svelte Icon"
+        />
+        <span
+          class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+          >Svelte</span
+        >
       </a>
-      <a
-        href="#academic"
-        class="block px-4 py-2 hover:text-svelte transition duration-300 ease-in-out"
-        >Academic</a
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default"
+        aria-expanded="false"
       >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15"
+          />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+        >
+          <li>
+            <a
+              href="#about"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-svelte md:p-0 dark:text-white md:dark:hover:text-svelte dark:hover:bg-gray-700 dark:hover:text-svelte md:dark:hover:bg-transparent"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-svelte md:p-0 dark:text-white md:dark:hover:text-svelte dark:hover:bg-gray-700 dark:hover:text-svelte md:dark:hover:bg-transparent"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="#internship"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-svelte md:p-0 dark:text-white md:dark:hover:text-svelte dark:hover:bg-gray-700 dark:hover:text-svelte md:dark:hover:bg-transparent"
+              >Internship</a
+            >
+          </li>
+          <li>
+            <a
+              href="#projects"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-svelte md:p-0 dark:text-white md:dark:hover:text-svelte dark:hover:bg-gray-700 dark:hover:text-svelte md:dark:hover:bg-transparent"
+              >Projects</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </section>
@@ -183,16 +140,3 @@
     height="40"
   />
 </button>
-
-<!-- Transition effect for mobile expansion and collapse -->
-<style>
-  .dropdown-transition {
-    transition: max-height 0.5s ease-in-out;
-    overflow: hidden;
-    max-height: 0;
-  }
-
-  .dropdown-transition.open {
-    max-height: 500px;
-  }
-</style>
