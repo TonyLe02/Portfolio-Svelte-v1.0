@@ -19,18 +19,19 @@
       (Aug 2024 - 2025)
     </h2>
     <p
-    class="text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
+      class="text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
     >
-    Joining Swipload Technologies AS
-  </p>
-  <p>
-    <a
-      href="https://nthomtng.github.io/PraksisNettSide/index.html"
-      class="text-lg font-semibold text-white hover:underline hover:text-green-500 transition-colors duration-300 ease-in-out"
-    >
-      Intern Website - Click Here
-    </a>
-  </p>
+      Joining Swipload Technologies AS
+    </p>
+    <p>
+      <a
+        target="_blank"
+        href="https://nthomtng.github.io/PraksisNettSide/index.html"
+        class="text-lg font-semibold text-white hover:underline hover:text-green-500 transition-colors duration-300 ease-in-out"
+      >
+        Intern Website - Click Here
+      </a>
+    </p>
 
     <p
       class="text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500 mb-4"
@@ -64,7 +65,7 @@
     <h2
       class="text-3xl mt-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-red-500"
     >
-      Internship Status - #1
+      Internship Status
     </h2>
 
     <h2
@@ -72,6 +73,15 @@
     >
       August 20th, 2024
     </h2>
+    <p class="mb-4">
+      <a 
+        class="text-lg font-semibold text-white hover:underline hover:text-green-500 transition-colors duration-300 ease-in-out"
+        target="_blank"
+        href="https://nthomtng.github.io/PraksisNettSide/pages/status.html"
+      >
+        Learn more about my internship status here
+      </a>
+    </p>
     <p>
       This week is the start of my internship at Swipload Technologies AS. I am
       excited to be part of the few students joining their team, and I look
